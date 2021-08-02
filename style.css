@@ -889,7 +889,7 @@ input:checked + .slider:before {
     }
 
     .sbar {
-        height: 32px;
+        height: 43px !important;
         margin-left: 15px !important;
     }
     
