@@ -239,12 +239,30 @@ label {
     border-radius: 15px;
 }
 
-.modal-content {
-    width: 573px;
+.modal-body {
+    max-height: 492px;
 }
 
-.modal-body{
-    height: 400px;
+@media (min-width: 1080px) {
+    .modal-dialog {
+        max-width: 573px !important;
+        margin: 2.75rem auto;
+    }
+    
+    .modal-dialog-centered {
+        min-height: calc(100% - (2.75rem * 2));
+    }
+}
+
+@media (min-width: 700px) {
+    .modal-dialog {
+        max-width: 500px;
+        margin: 2.75rem auto;
+    }
+
+    .modal-dialog-centered {
+        min-height: calc(100% - (2.75rem * 2));
+    }
 }
 
 #style-2::-webkit-scrollbar-track
@@ -959,10 +977,6 @@ input:checked + .slider:before {
 
     .modal-content {
         width: 450px !important;
-    }
-
-    .modal-dialog{
-        width: 420px !important;
     }
 
     .checkbox-primary {
