@@ -979,6 +979,10 @@ input:checked + .slider:before {
         width: 450px !important;
     }
 
+    .modal-dialog {
+        width: 420px;
+    }
+
     .checkbox-primary {
         width: 14px !important;
         height: 14px !important;
