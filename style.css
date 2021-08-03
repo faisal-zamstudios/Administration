@@ -134,8 +134,8 @@ a:link {
 }
 
 .add-client-btn {
-    width: 224px; 
-    height: 49px; 
+    width: 254px; 
+    height: 49px;
     background: #615EFF !important; 
     font-weight: 500;
     font-size: 14px;
@@ -889,12 +889,12 @@ input:checked + .slider:before {
     }
 
     .sbar {
-        height: 43px !important;
+        height: 32px !important;
         margin-left: 15px !important;
     }
     
     .sbar-input {
-        height: 43px !important;
+        height: 32px !important;
     }
     
     .client-text {
